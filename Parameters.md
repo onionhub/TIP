@@ -161,5 +161,7 @@ u_k=imgaussfilt(Input,1.3)--- (sigma1=1.3)
 u_l=imgaussfilt(Input,2.5)--- (sigma2=2.5)
 Ch=[38 19]---- (c1=38, c2=19)
 Cl=0
+Notice: We have used cave-flash.jpg
+
 ```
 # Parameters For Table. 2 (Page. 12)
