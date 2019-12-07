@@ -11,7 +11,7 @@ Input = peacocks.jpg
 u_g=imadjust(Input)--- (sigma0='default')
 u_k=imgaussfilt(Input,3)--- (sigma1=3)
 u_l=imgaussfilt(Input,4)--- (sigma2=4)
-Ch=[15 -1]---- (c1=15, c2=-1)
+Ch=[15 1]---- (c1=15, c2=1)
 Cl=0
 ````
 - Fig. 1 (b)
@@ -21,7 +21,7 @@ Input = Hani.jpg
 u_g=WLS(Input)--- (sigma0=u_g)
 u_k=imgaussfilt(Input,1)--- (sigma1=1)
 u_l=imgaussfilt(Input,3)--- (sigma2=3)
-Ch=[15 -2]---- (c1=15, c2=-2)
+Ch=[15 2]---- (c1=15, c2=2)
 Cl=0
 ```
 - Fig. 1 (c)
@@ -36,3 +36,18 @@ Cl=3
 ```
 
 # Fig. 5
+First column all is the original image.
+- First row
+```
+First row is gaussian low-pass filter with variances 2, 4, and 10.
+```
+- Second row
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = Monarchandflower.jpg
+u_g=imgaussfilt(Input,2)--- (sigma0=2)
+u_k=imgaussfilt(Input,2)--- (sigma1=2)
+u_l=imgaussfilt(Input,1)--- (sigma2=1)
+Ch=[exp(-sigma1/7) 1]
+Cl=0
+```
