@@ -112,5 +112,24 @@ u_l=imgaussfilt(Input,4)--- (sigma2=4)
 Ch=[4 2]---- (c1=4, c2=2)
 Cl=0
 ```
-- Second row, First column
-
+- Second row, First column (Improved Gaussian)
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = cave-noflash.jpg
+u_g=Input--- (sigma0=Input)
+u_k=imgaussfilt(Input,1.3)--- (sigma1=1.3)
+u_l=imgaussfilt(Input,2.5)--- (sigma2=2.5)
+Ch=[35 6]---- (c1=35, c2=6)
+Cl=0
+```
+- Second row, Second column (Improved Bilateral)
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = cave-noflash.jpg
+u_g=Input--- (sigma0=Input)
+u_k=imgaussfilt(Input,1.3)--- (sigma1=1.3)
+u_l=imgaussfilt(Input,3)--- (sigma2=3)
+Ch=[9 6]---- (c1=9, c2=6)
+Cl=0
+```
+- Second row, Third column (Improved TV)
