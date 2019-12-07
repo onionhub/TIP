@@ -11,12 +11,12 @@
     %Proposed filter with alternative filters (Eq.(5) in the paper).
     %In this case; sigma0=u_g, sigma1=F(E(.)), sigma2=H_2(.), Ch=C_h, and Cl=C_l.
 
-function [ue] = Proposed(original,lowfilter,sigma0,sigma1,sigma2,Ch,Cl)
-original=double(original);
-[m,n,c]=size(original);
+function [ue] = Proposed(Input,lowfilter,sigma0,sigma1,sigma2,Ch,Cl)
+Input=double(Input);
+[m,n,c]=size(Input);
 ue=zeros(m,n,c);
 for channel=1:c
-    Im=original(:,:,channel);
+    Im=Input(:,:,channel);
     if strcmp(lowfilter,'Gaussian-enhancement') || strcmp(lowfilter,'gaussian-enhancement') 
         uk=imgaussfilt(Im,sigma1);
         [graduk,~]=imgradient(uk,'central');
