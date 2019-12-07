@@ -72,3 +72,13 @@ Ch=[exp(-sigma0/7) 1]
 Cl=0
 ```
 # Fig. 7
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = flower.jpg
+u_g=Input--- (sigma0=Input)
+u_k=imgaussfilt(Input,1)--- (sigma1=1)
+u_l=imgaussfilt(Input,4)--- (sigma2=4)
+Ch=[2 1]---- (c1=2, c2=1)
+Cl=0
+```
+# Fig. 9
