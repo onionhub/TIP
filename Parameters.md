@@ -92,3 +92,13 @@ Ch=[2 1]---- (c1=2, c2=1)
 Cl=0
 ```
 # Fig. 11
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = imnoise(flower.jpg,'gaussian',.0015)--- Creating a synthetic noisy image by Gaussian distribution (variance=20)
+u_g=Input--- (sigma0=Input)
+u_k=imgaussfilt(Input,1.7)--- (sigma1=1.7)
+u_l=imgaussfilt(Input,3)--- (sigma2=3)
+Ch=[8 1]---- (c1=8, c2=1)
+Cl=0
+```
+# Fig. 14
