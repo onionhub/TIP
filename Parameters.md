@@ -71,4 +71,4 @@ u_l=imgaussfilt(Input,1)--- (sigma2=4)
 Ch=[exp(-sigma0/7) 1]
 Cl=0
 ```
-# Fig. 5
+# Fig. 7
