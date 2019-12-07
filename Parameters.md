@@ -6,6 +6,7 @@ This instruction will give yout the Parameters, which have been used to produce 
 This figure consists of three experiments on "peacocks.jpg" (Fig.1 (a)), "Hani.jpg" (Fig. 1 (b)), and "MRI.png" (Fig. 1 (c)). The equation (16) has been used for producing the results of Fig. 1.
 - Fig. 1 (a)
 ```
+Case 1---- lowfilter='Gaussian-enhancement'
 Input = peacocks.jpg
 u_g=imadjust(Input)--- (sigma0='default')
 u_k=imgaussfilt(Input,3)--- (sigma1=3)
