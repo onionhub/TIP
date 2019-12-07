@@ -168,6 +168,6 @@ Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided
 Case 1---- lowfilter='Gaussian-enhancement'
 u_g=Input--- (sigma0=Input)
 ```
-![1](TIP/Parameters/G1.jpg)
-![2](TIP/Parameters/G2.jpg)
-![3](TIP/Parameters/G3.jpg)
+![1](Parameters/G1.jpg)
+![2](Parameters/G2.jpg)
+![3](Parameters/G3.jpg)
