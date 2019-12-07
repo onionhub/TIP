@@ -102,3 +102,15 @@ Ch=[8 1]---- (c1=8, c2=1)
 Cl=0
 ```
 # Fig. 14
+- First row, Last column
+```
+Case 3---- lowfilter='Gaussian-smoothing'
+Input = cave-noflash.jpg
+u_g=imgaussfilt(Input,2)--- (sigma0=2)
+u_k=imgaussfilt(Input,2)--- (sigma1=2)
+u_l=imgaussfilt(Input,4)--- (sigma2=4)
+Ch=[4 2]---- (c1=4, c2=2)
+Cl=0
+```
+- Second row, First column
+
