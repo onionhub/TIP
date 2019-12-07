@@ -26,7 +26,7 @@ Cl=0
 ```
 - Fig. 1 (c)
 ```
-Case 2---- lowfilter='Gaussian-canny'
+Case 2---- lowfilter='Canny-enhancement'
 Input = MRI.png
 u_g=1.5*Input--- (sigma0=u_g)
 u_k=edge(Input,'canny',[],sigma1)--- (sigma1='default')
