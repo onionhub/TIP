@@ -163,7 +163,7 @@ Ch=[38 19]---- (c1=38, c2=19)
 Cl=0
 Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided filtering.
 ```
-# Parameters For Table. 2 (Page. 12)
+# Table. 2 (Page. 12)
 ```
 Case 1---- lowfilter='Gaussian-enhancement'
 u_g=Input--- (sigma0=Input)
