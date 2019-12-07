@@ -48,7 +48,7 @@ Input = Monarchandflower.jpg
 Second column: u_g=imgaussfilt(Input,2)--- (sigma0=2), Third column: u_g=imgaussfilt(Input,4)--- (sigma0=4), Forth column: u_g=imgaussfilt(Input,10)--- (sigma0=10)
 u_k=imgaussfilt(Input,2)--- (sigma1=2)
 u_l=imgaussfilt(Input,1)--- (sigma2=1)
-Ch=[exp(-sigma1/7) 1]
+Ch=[exp(-sigma0/7) 1]
 Cl=0
 ```
 - Third row
@@ -58,7 +58,7 @@ Input = Monarchandflower.jpg
 Second column: u_g=imgaussfilt(Input,2)--- (sigma0=2), Third column: u_g=imgaussfilt(Input,4)--- (sigma0=4), Forth column: u_g=imgaussfilt(Input,10)--- (sigma0=10)
 u_k=imgaussfilt(Input,2)--- (sigma1=2)
 u_l=imgaussfilt(Input,1)--- (sigma2=2)
-Ch=[exp(-sigma1/7) 1]
+Ch=[exp(-sigma0/7) 1]
 Cl=0
 ```
 - Forth row
@@ -68,6 +68,6 @@ Input = Monarchandflower.jpg
 Second column: u_g=imgaussfilt(Input,2)--- (sigma0=2), Third column: u_g=imgaussfilt(Input,4)--- (sigma0=4), Forth column: u_g=imgaussfilt(Input,10)--- (sigma0=10)
 u_k=imgaussfilt(Input,2)--- (sigma1=2)
 u_l=imgaussfilt(Input,1)--- (sigma2=4)
-Ch=[exp(-sigma1/7) 1]
+Ch=[exp(-sigma0/7) 1]
 Cl=0
 ```
