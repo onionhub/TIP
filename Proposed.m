@@ -3,11 +3,15 @@
     %In this case; sigma0 is backbone image enhancement in which if sigma0 is 'default' then gamma adjustment has been set as default backbone image enhancement for u_g.
     %sigma1, sigma2 are the variances of Gaussian low-pass filters in u_k, u_l in the paper, respectively.
     %Ch is a vector which has two elements; first element for c1 and second for c2 (coefficients of C_h in Eq.(16)). 
-%% Case 2: lowfilter='Gaussian-smoothing'
+%% Case 2: lowfilter='Canny-enhancement'
+    %Proposed Edge enhancement (Eq.(16) in the paper)
+    %In this case; Canny edge detector has been used as E(F(.)).
+    %Therefore, sigma1 acts as variance for Gaussian low-pass filter in canny method. It's better to chose sigma1=sqrt(2) like MATLAB default value for Canny.
+%% Case 3: lowfilter='Gaussian-smoothing'
     %Proposed Edge-preserving Smoothing (Eq.(17) in the paper).
     %In this case; sigma0, sigma1, sigma2 are the variances of Gaussian low-pass filters in u_g, u_k, u_l in the paper, respectively.
     %Ch is a vector which has two elements; first element for c1 and second for c2 (coefficients of C_h in Eq.(17)). 
-%% Case 3: lowfilter='Other'
+%% Case 4: lowfilter='Other'
     %Proposed filter with alternative filters (Eq.(5) in the paper).
     %In this case; sigma0=u_g, sigma1=F(E(.)), sigma2=H_2(.), Ch=C_h, and Cl=C_l.
 
@@ -35,6 +39,16 @@ for channel=1:c
         else
             ug=double(sigma0(:,:,channel));
         end
+        H2=(Im-imgaussfilt(Im,sigma2));
+    elseif strcmp(lowfilter,'Canny-enhancement') || strcmp(lowfilter,'canny-enhancement')
+        uk=edge(Im,'canny',[],sigma1);
+        F=uk.^2;
+        C=Ch;
+        if strcmp(sigma0,'default')
+            ug=double(1.5*Im);
+        else
+            ug=double(sigma0(:,:,channel));
+        end        
         H2=(Im-imgaussfilt(Im,sigma2));
     elseif strcmp(lowfilter,'Gaussian-smoothing') || strcmp(lowfilter,'gaussian-smoothing')   
         uk=imgaussfilt(Im,sigma1);
