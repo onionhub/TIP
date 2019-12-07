@@ -30,7 +30,7 @@ Case 2---- lowfilter='Canny-enhancement'
 Input = MRI.png
 u_g=1.5*Input--- (sigma0=u_g)
 u_k=edge(Input,'canny',[],sigma1)--- (sigma1=sqrt(2))
-u_l=imgaussfilt(Input,3)--- (sigma2=2)
+u_l=imgaussfilt(Input,2)--- (sigma2=2)
 Ch=2
 Cl=3
 ```
