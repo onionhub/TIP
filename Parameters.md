@@ -7,6 +7,5 @@ This figure consists of three experiments on "peacocks.jpg" (Fig.1 (a)), "Hani.j
 - Fig. 1 (a)
 ```
 Input = peacocks.jpg
-
 u_g=imadjust(Input)
 ````
