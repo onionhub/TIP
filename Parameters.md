@@ -168,6 +168,6 @@ Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided
 Case 1---- lowfilter='Gaussian-enhancement'
 u_g=Input--- (sigma0=Input)
 ```
-![1](https://github.com/onionhub/TIP/tree/master/Parameters/G1.jpg)
-![2](https://github.com/onionhub/TIP/tree/master/Parameters/G2.jpg)
-![3](https://github.com/onionhub/TIP/tree/master/Parameters/G3.jpg)
+![1](https://github.com/onionhub/TIP/blob/master/Parameters/G1.JPG)
+![2](https://github.com/onionhub/TIP/blob/master/Parameters/G2.JPG)
+![3](https://github.com/onionhub/TIP/blob/master/Parameters/G3.JPG)
