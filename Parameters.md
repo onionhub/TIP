@@ -165,3 +165,4 @@ Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided
 ```
 # Parameters For Table. 2 (Page. 12)
 Case 1---- lowfilter='Gaussian-enhancement'
+![Image description](link-to-image)
