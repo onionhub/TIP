@@ -7,7 +7,7 @@ This figure consists of three experiments on "peacocks.jpg" (Fig.1 (a)), "Hani.j
 - Fig. 1 (a)
 ```
 Input = peacocks.jpg
-u_g=imadjust(Input)
+u_g=imadjust(Input)--- sigma0='default'
 u_k=imgaussfilt(Input,3)--- sigma1=3
 u_l=imgaussfilt(Input,4)--- sigma2=4
 c1=15
