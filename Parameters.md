@@ -15,3 +15,12 @@ Ch=[15 -1]---- (c1=15, c2=-1)
 Cl=0
 ````
 - Fig. 1 (b)
+```
+Case 1---- lowfilter='Gaussian-enhancement'
+Input = Hani.jpg
+u_g=WLS(Input)--- (sigma0=WLS(Input))
+u_k=imgaussfilt(Input,1)--- (sigma1=1)
+u_l=imgaussfilt(Input,3)--- (sigma2=3)
+Ch=[15 -2]---- (c1=15, c2=-2)
+Cl=0
+```
