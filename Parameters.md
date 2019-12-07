@@ -168,6 +168,6 @@ Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided
 Case 1---- lowfilter='Gaussian-enhancement'
 u_g=Input--- (sigma0=Input)
 ```
-![1](https://onedrive.live.com/?id=af8b5fa8b5877b20!0%3aL0xpdmVGb2xkZXJzL0cxLkpQRw)
-![2](https://onedrive.live.com/?id=af8b5fa8b5877b20!0%3aL0xpdmVGb2xkZXJzL0cxLkpQRw)
-![3](https://onedrive.live.com/?id=af8b5fa8b5877b20!0%3aL0xpdmVGb2xkZXJzL0cxLkpQRw)
+![1](https://pasteboard.co/IKd6qmJ.jpg)
+![2](https://pasteboard.co/IKd6qmJ.jpg)
+![3](https://pasteboard.co/IKd6qmJ.jpg)
