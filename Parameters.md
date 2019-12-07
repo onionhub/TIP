@@ -8,4 +8,9 @@ This figure consists of three experiments on "peacocks.jpg" (Fig.1 (a)), "Hani.j
 ```
 Input = peacocks.jpg
 u_g=imadjust(Input)
+u_k=imgaussfilt(Input,3)--- sigma1=3
+u_l=imgaussfilt(Input,4)--- sigma2=4
+c1=15
+c2=-1
 ````
+- Fig. 1 (b)
