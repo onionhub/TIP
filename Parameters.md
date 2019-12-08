@@ -168,6 +168,7 @@ Notice: We have used "cave-flash.jpg" as refrence (guide) image for image guided
 Case 1---- lowfilter='Gaussian-enhancement'
 u_g=Input--- (sigma0=Input)
 Cl=0
+Notice: You should a bit play with these below parameters in order to reach the results of the table. These parameters are not exactly those parameters which have been used for conducting the experiments in the first stage.
 ```
 ![1](https://github.com/onionhub/TIP/blob/master/Parameters/G1.JPG)
 ![2](https://github.com/onionhub/TIP/blob/master/Parameters/G2.JPG)
