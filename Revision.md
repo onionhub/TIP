@@ -23,5 +23,5 @@ Ch can be either constant coefficient or non-negative monotonically decreasing (
 - Current:
 Cl has been chosen 0 for all of the experiments except for the real-world images which we were sure that there is almost no noise in the images.
 - Revised:
-The sentence should be deleted completely. (Because, we have used Cl=1 for Fig. 7 and Fig. 9. It is not currect statement.)
+The sentence should be deleted completely. (Because, we have used Cl=1 for Fig. 7 and Fig. 9. It is not a currect statement.)
 ```
