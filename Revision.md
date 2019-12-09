@@ -9,5 +9,6 @@ Ch can be either constant coefficient or non-negative monotonically decreasing (
 ```
 - Page. 7, Column. Right, Line. 26
 ```
-
+https://github.com/onionhub/TIP/blob/Drafts/Currentbeta.JPG
+https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG
 ```
