@@ -11,11 +11,11 @@ Ch can be either constant coefficient or non-negative monotonically decreasing (
 ```
 - Current:
 ```
-![1](https://github.com/onionhub/TIP/blob/Drafts/Currentbeta.JPG){ :height="700px" width="500px" }
+![1](https://github.com/onionhub/TIP/blob/Drafts/Currentbeta.JPG)
 ```
 - Revised:
 ```
-![2](https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG&s=200)
+![2](https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG)
 - Page. 8, Column. Left, Line. 11
 ```
 - Current:
