@@ -10,6 +10,3 @@ Send me your Slack ID or your Email in order to invite you to a channel in Slack
 
 Notice: in this method, keeping out the anonymity is all on you.
 ```
-```
-* This project is being developed.
-```
