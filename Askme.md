@@ -7,6 +7,5 @@ Please go to the "Issues" (https://github.com/onionhub/TIP/issues) and create ne
 - Method 2
 ```
 Send me your Slack ID or your Email in order to invite you to a channel in Slack which has been devised for reviewing the paper.
-
-Notice: in this method, keeping out the anonymity is all on you.
 ```
+Notice: in all of these methods, keeping out the anonymity is all on you.
