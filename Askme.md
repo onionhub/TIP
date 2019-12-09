@@ -6,6 +6,6 @@ Please go to the "Issues" (https://github.com/onionhub/TIP/issues) and create ne
 ```
 - Method 2
 ```
-Send me (to: ehsun.assadi@gmail.com) your Slack ID or your Email in order to invite you to a channel in Slack which has been devised for reviewing the paper.
+Send me (to: ehsun.assadi@gmail.com, subject: paper ID) your Slack ID or your Email in order to invite you to a channel in Slack which has been devised for reviewing the paper.
 ```
 Notice: in all of these methods, remaining anonymous is all on you.
