@@ -21,6 +21,6 @@ AA1 and AA2 means AA model with different lambdas and iterations, but we conside
 ```
 - How to implement
 ```
-(It will be completed whitin 24 hours.)
+(Will be completed whitin 24 hours.)
 ```
 ## AA model as filter for uk and ul to improve the results of the other multiplicative denoising methods
