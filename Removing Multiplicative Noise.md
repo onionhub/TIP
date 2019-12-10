@@ -31,3 +31,10 @@ After being pre-processed, use again AA model on the processed noisy image.
 ```
 ## AA model as filter for uk and ul to improve the results of the other multiplicative denoising methods
 In this part, we will show how using AA model as filter for uk and ul in the proposed filter can improve the performance of other multiplicative noise removing methods from edge-preserving perspective.
+
+For example, we have considered ROL model [2] as a multiplicative noise removing method and showed how AA model helps to improve ROL model's profeciency.
+
+<a id="2">[1]</a>
+Rudin, Leonid, Pierre-Luis Lions, and Stanley Osher. "Multiplicative denoising and deblurring: theory and algorithms." Geometric Level Set Methods in Imaging, Vision, and Graphics. Springer, New York, NY, 2003. 103-119.
+
+
