@@ -1,5 +1,5 @@
 # Removing Multiplicative Noise
-In the paper, we have just conducted experiments on white additive Gaussian noise and related methods. 
+Because of the page limits, we have just conducted experiments on white additive Gaussian noise and related methods in the paper. 
 In this document, we will show how the proposed filter can improve the performance of other denoising methods which have been introduced for different kinds of noise.
 ## AA model
 We showed the efficiency of the proposed method on a variational approach for removing multiplicative noise which has been introduced in the below refrence.
