@@ -50,7 +50,3 @@ ul=u-AA2(Input)
 AA1 and AA2 means AA model with different lambdas and iterations, but we considered AA1=AA2 in the example.
 600 iteration for ROL model in the both cases (with and without being pre-processed).
 ```
-- How to implement
-```
-
-```
