@@ -35,8 +35,9 @@ In this part, we will show how using AA model as filter for uk and ul in the pro
 
 For example, we have considered ROL model [2] as a multiplicative noise removing method and showed how AA model helps to improve ROL model's profeciency.
 
-<a id="2">[1]</a>
+<a id="2">[2]</a>
 Rudin, Leonid, Pierre-Luis Lions, and Stanley Osher. "Multiplicative denoising and deblurring: theory and algorithms." Geometric Level Set Methods in Imaging, Vision, and Graphics. Springer, New York, NY, 2003. 103-119.
+
 ![2](https://github.com/onionhub/TIP/blob/Drafts/Drafts/ROL.JPG)
 - Parameters
 ```
