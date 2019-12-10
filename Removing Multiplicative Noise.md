@@ -12,7 +12,7 @@ Aubert, Gilles, and Jean-Francois Aujol. "A variational approach to removing mul
 ```
 ug=Input
 c1=15
-c2=-6
+c2=6
 Cl=0
 uk=AA1(Input)
 E(uk)=imgradient(uk,'central')
