@@ -30,5 +30,4 @@ After being pre-processed, use again AA model on the processed noisy image.
 * For ease of implementation, keep lambda=30 but with different itterations in every stage.
 ```
 ## AA model as filter for uk and ul to improve the results of the other multiplicative denoising methods
-```
 In this part, we will show how chosing AA model as filter for uk and ul in the proposed filter can improve the performance of other multiplicative noise removing methods from edge-preserving perspective.
