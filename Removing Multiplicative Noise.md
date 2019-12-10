@@ -21,6 +21,12 @@ AA1 and AA2 means AA model with different lambdas and iterations, but we conside
 ```
 - How to implement
 ```
-(Will be completed whitin 24 hours.)
+We consider AA model as a low-pass filter for uk and ul in the proposed filter. Therefore, we first run AA model for noisy image (AA(Input)). After that, we used the result (AA(Input)) for both uk and ul in the proposed filters' Matlab code as below:
+case 4: lowfilter='Other'
+sigma0=Input (Noisy image)
+sigma1=imgradient_N(AA(Input),'central') (Normalized the gradient of the output of AA model)
+sigma2=u-AA(Input)
+After being pre-processed, use again AA model on the processed noisy image.
+* For ease of implementation, keep lambda=30 but with different itterations in every stage.
 ```
 ## AA model as filter for uk and ul to improve the results of the other multiplicative denoising methods
