@@ -16,6 +16,7 @@ c2=6
 Cl=0
 uk=AA1(Input)
 E(uk)=imgradient(uk,'central')
+F(E(uk))=Normalized(E(uk)^2)
 ul=u-AA2(Input)
 AA1 and AA2 means AA model with different lambdas and iterations, but we considered AA1=AA2 in the example.  
 ```
@@ -39,7 +40,15 @@ Rudin, Leonid, Pierre-Luis Lions, and Stanley Osher. "Multiplicative denoising a
 ![2](https://github.com/onionhub/TIP/blob/Drafts/Drafts/ROL.JPG)
 - Parameters
 ```
-
+c1=15
+c2=6
+Cl=0
+uk=AA1(Input)
+E(uk)=imgradient(uk,'central')
+F(E(uk))=Normalized(E(uk)^2)
+ul=u-AA2(Input)
+AA1 and AA2 means AA model with different lambdas and iterations, but we considered AA1=AA2 in the example.
+600 iteration for ROL model in the both cases (with and without being pre-processed).
 ```
 - How to implement
 ```
