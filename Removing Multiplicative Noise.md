@@ -19,4 +19,4 @@ E(uk)=imgradient(uk,'central')
 ul=u-AA2(Input)
 AA1 and AA2 means AA model with different lamda, but we considered AA1=AA2 in the example.
 ```
-## AA model as filter for uk and ul to improve the results of the other multiplicative denoising
+## AA model as filter for uk and ul to improve the results of the other multiplicative denoising methods
