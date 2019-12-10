@@ -17,7 +17,7 @@ Cl=0
 uk=AA1(Input)
 E(uk)=imgradient(uk,'central')
 ul=u-AA2(Input)
-AA1 and AA2 means AA model with different lambdas and iterations, but we considered AA1=AA2 in the example (my system doesn't respond for much complicated tasks). 
+AA1 and AA2 means AA model with different lambdas and iterations, but we considered AA1=AA2 in the example.  
 ```
 - How to implement
 ```
