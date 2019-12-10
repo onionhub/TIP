@@ -6,4 +6,4 @@ We showed the performance of the proposed method on a variational approach for r
 <a id="1">[1]</a>
 Aubert, Gilles, and Jean-Francois Aujol. "A variational approach to removing multiplicative noise." SIAM journal on applied mathematics 68.4 (2008): 925-946.
 # Results
-![1](https://github.com/onionhub/TIP/blob/master/Parameters/G1.JPG)
+![1](https://github.com/onionhub/TIP/blob/Drafts/Variational.JPG)
