@@ -52,3 +52,4 @@ AA1 and AA2 means AA model with different lambdas and iterations, but we conside
 600 iteration for ROL model in the both cases (with and without being pre-processed).
 ```
 # Discussion
+Why the proposed filter could not make most significant improvement when it uses variational methods as filter? 
