@@ -53,3 +53,5 @@ AA1 and AA2 means AA model with different lambdas and iterations, but we conside
 ```
 # Discussion
 Why the proposed filter could not make most significant improvement when it uses variational methods as filter? 
+
+As we know variational methods in image processing are sparse-derivative signal denoisin methods. In other words, there is no way to restrict a signal to specific freq uency band in variational methods. Quite the contrary, when we are using filters, like spatial Gaussian filter, we can determine the frequency band which we expect to work on the edges of that specific frequency band in order to improve the edges of the frequency band. Despite, we see that the proposed filter is able to improve the results of other methods when it uses variational methods as filter. However, we can not go further and expect more in this case.
