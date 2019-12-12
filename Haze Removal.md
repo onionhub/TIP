@@ -7,6 +7,7 @@ We consider the below refrence as one of the most successful dehazing methods in
 Zhu, Qingsong, Jiaming Mai, and Ling Shao. "A fast single image haze removal algorithm using color attenuation prior." IEEE transactions on image processing 24.11 (2015): 3522-3533.
 - Results
 
-<figure> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/test1.png" width="280" height="300"> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/fast.png" width="280" height="300">| <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/preprocessed.png" width="280" height="300">
- <figcaption>This is my caption text.</figcaption>
+<figure> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/test1.png" width="280" height="300"> <figcaption>This is my caption text.</figcaption>
+</figure> <figure> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/fast.png" width="280" height="300"> <figcaption>This is my caption text.</figcaption>
+</figure> <figure> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/preprocessed.png" width="280" height="300"> <figcaption>This is my caption text.</figcaption>
 </figure>
