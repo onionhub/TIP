@@ -10,4 +10,4 @@ We will explain in details after uploading the whole images.
 ## Image's regions in relative to variance of 6 in Gaussian
 ![4](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R3.JPG)
 ## Image's regions in relative to variance of 10 in Gaussian
-
+![5](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R4.JPG)
