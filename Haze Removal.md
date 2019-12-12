@@ -17,7 +17,7 @@ Ch=[2 1]---- (c1=2, c2=1)
 Cl=0.8
 ```
 # Discussion
-It is true that we pre-processed the image before dehazing it by [1], but indeed what we have done was a past-processing work like simple image enhancement. In other words, in this case pre-processing will have the same result with past-processing. Because, [1] do not remove the edges and it does not need to enhance the edges before performing the method on the image. The point is that we can use refrence [1] as filter in the proposed filter in order to improve the results of the other haze removal methods that performs poor on the edge. We will bring an example to see how it really works. We are looking for those haze removal methods that perform weak on the edges.
+It is true that we pre-processed the image before dehazing it by [1], but indeed what we have done was a past-processing work like simple image enhancement. In other words, in this case pre-processing will have the same result with past-processing. Because, [1] performs somhow well on the edges and it does not need to enhance the edges before performing the method on the image (It does not mean that [1] does not blurr the edge at all, for example look at the leaves in the top part of the image). The point is that we can use refrence [1] as filter in the proposed filter in order to improve the results of the other haze removal methods that performs poor on the edge. We will bring an example to see how it really works. We are looking for those haze removal methods that perform weak on the edges.
 # Using refrence [1] in the proposed filter to improve the effeciency of other haze removal methods
 ```
 This part will be completed in the future.
