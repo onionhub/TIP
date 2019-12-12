@@ -8,4 +8,14 @@ Zhu, Qingsong, Jiaming Mai, and Ling Shao. "A fast single image haze removal alg
 - Results
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Drafts/Dehazed1.JPG)
 - Parameters
+```
+ug=Input
+c1=1.5
+c2=4
+Cl=.8
+uk=(Input)
+E(uk)=imgradient(uk,'central')
+F(E(uk))=Normalized(E(uk)^2)
+ul=u-(Input)
+```
 
