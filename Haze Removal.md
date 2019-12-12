@@ -8,3 +8,4 @@ Zhu, Qingsong, Jiaming Mai, and Ling Shao. "A fast single image haze removal alg
 - Results
 
 <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/test1.png" width="280" height="300"> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/fast.png" width="280" height="300"> <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/preprocessed.png" width="280" height="300">
+Input image     Dehazed by [1]           Dehazed by [1] after being pre-processed by the proposed filter
