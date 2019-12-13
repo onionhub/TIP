@@ -4,10 +4,10 @@ We will explain in details after uploading the whole images.
 ```
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Mainframe.JPG)
 ## Image's regions in relative to variance of 1 in Gaussian
-![2](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R11.JPG)
+![2](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/11.JPG)
 ## Image's regions in relative to variance of 3 in Gaussian
-![3](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R22.JPG)
+![3](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/22.JPG)
 ## Image's regions in relative to variance of 6 in Gaussian
-![4](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R3.JPG)
+![4](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/3.JPG)
 ## Image's regions in relative to variance of 10 in Gaussian
-![5](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/R4.JPG)
+![5](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/4.JPG)
