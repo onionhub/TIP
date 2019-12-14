@@ -11,7 +11,7 @@ The edges are relative in an image based on the value of the gradient they have.
 
 - Relative* strong regions
 
-According to the conventional assumption in image processing, those regions with high gradient value are potential volunteers for the edges. In other words, those regions are the strong regions in relative* to the other regions.
+According to the conventional assumption in image processing, those regions with high gradient value are potential volunteers for the edges. In other words, those regions are the strong regions relative* to the other regions.
 
 - Relative* flat regions
 
@@ -24,7 +24,7 @@ The Relative* strong regions are relative in spatial domain from different frequ
 
 - Relative** strong regions
 
-These regions always belong to relative* strong regions but they count as strong regions in relative to the frequency band which we study the image.
+These regions always belong to relative* strong regions but they count as strong regions relative to the frequency band which we study the image.
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as relative** flat regions in a specific frequency band, or some other parts can be added to these parts from <b>relative**</b> flat regions.
 
 - Relative** flat regions
