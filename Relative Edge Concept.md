@@ -1,6 +1,9 @@
 # Relative Edge Concept
 ```
 -Colors Interpretation
+Red: Indicates strong edges.
+Green: Indicates weak edges.
+Yellow: Indicates strong edge in one direction, like x-direction, and weak edge in other direction.
 ```
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Mainframe.JPG)
 ## Image's regions in relative to variance of 1 in Gaussian
