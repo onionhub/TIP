@@ -11,7 +11,7 @@ The edges are relative in an image based on the value of the gradient they have.
 
 - Relative* strong regions
 
-According to the conventional assumption in image processing, those regions with high gradient value are potential volunteers for the edges. In other words, those regions are the strong regions in relative to the other regions.
+According to the conventional assumption in image processing, those regions with high gradient value are potential volunteers for the edges. In other words, those regions are the strong regions in relative* to the other regions.
 
 - Relative* flat regions
 
