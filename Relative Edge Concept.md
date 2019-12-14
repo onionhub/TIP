@@ -6,7 +6,7 @@ Green: Indicates relative** weak edges.
 Yellow: Indicates relative** strong edge in one direction, like x-direction, and relative** weak edge in other direction.
 ```
 Features in images are relative from two perspectives which have been adressed as relative* and relative** in this document. We consider the edges as a manifest features in image processing.
-## Relative*
+## <i>Relative*</i>
 The edges are relative in an image based on the value of the gradient they have.
 
 - Relative* strong regions
