@@ -1,9 +1,9 @@
 # Relative Edge Concept
 ```
 -Colors Interpretation:
-Red: Indicates relative* strong edges.
-Green: Indicates relative* weak edges.
-Yellow: Indicates relative* strong edge in one direction, like x-direction, and relative* weak edge in other direction.
+Red: Indicates relative** strong edges.
+Green: Indicates relative** weak edges.
+Yellow: Indicates relative** strong edge in one direction, like x-direction, and relative** weak edge in other direction.
 ```
 Features in images are relative from two perspectives which have been adressed as relative* and relative** in this document. We consider the edges as a manifest features in image processing.
 ## Relative*
