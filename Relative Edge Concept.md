@@ -24,7 +24,7 @@ The Relative* strong regions are relative in spatial domain from different frequ
 
 - Relative** strong regions
 
-These regions always belong to relative* strong regions but they count as strong regions relative to the frequency band which we study the image.
+These regions always belong to relative* strong regions but they count as strong regions relative** to the frequency band which we study the image.
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as relative** flat regions in a specific frequency band, or some other parts can be added to these parts from <b>relative**</b> flat regions.
 
 - Relative** flat regions
