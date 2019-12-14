@@ -16,7 +16,9 @@ According to the conventional assumption in image processing, those regions with
 The rest of the regions count as flat regions; those regions with low gradient values.
 
 ## Relative**
-The edge are relative in spatial domain from different frequency bands aspects.
+The edge are relative in spatial domain from different frequency bands aspects. Relative* strong regions are relative in respect to the frequency band we study image if we consider two constraint:
+1) All methods' mathematics and the way of their implementation are invariant.
+2) Delat function is absolute feature. In other words, u=0 does not count as signal, and all features occupies some space in spatial domain in order to be seperated into different regions from mathematics perspectiv.
 
 - Relative** strong regions
 
