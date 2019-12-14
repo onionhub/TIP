@@ -1,6 +1,6 @@
 # Relative Edge Concept
 ```
-This section will be completed till 14 Dec (10:00PM UTC)
+-Colors Interpretation
 ```
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Mainframe.JPG)
 ## Image's regions in relative to variance of 1 in Gaussian
