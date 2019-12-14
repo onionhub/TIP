@@ -15,7 +15,7 @@ According to the conventional assumption in image processing, those regions with
 
 - Relative* flat regions
 
-The rest of the regions count as flat regions; those regions with low gradient values.
+The rest of the regions count as flat regions relative to strong regions; those regions with low gradient values.
 
 ## Relative**
 The Relative* strong regions are relative in spatial domain from different frequency bands aspects. Relative* strong regions are relative in respect to the frequency band we study image if we consider two constraints:
