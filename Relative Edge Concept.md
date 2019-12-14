@@ -31,7 +31,7 @@ These regions are not invariant in all frequency bands. In other words, some par
 
 Quite the contrary, these regions might not always count as relative* strong regions and they might be either relative* strong regions or relative* flat regions in different frequency bands. 
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as relative** strong regions in a specific frequency band, or some other parts can be added to these parts from <b>relative*</b> flat regions.
-# We will speak more in details and give some interpretations about the results whitin 24 hours.
+# We will speak more in details and give some interpretations about the below images whitin 24 hours.
 
 --------------------------------------------
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re0.jpg)
