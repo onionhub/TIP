@@ -7,8 +7,10 @@ Yellow: Indicates strong edge in one direction, like x-direction, and weak edge 
 ```
 Features in images are relative from two perspectives which have been adressed as relative* and relative** in this document. We consider the edges a manifest features in image processing.
 - Relative*
+
 The edges are relative in an image based on the value of the gradient they have.
 - Relative**
+
 The edge are relative in spatial domain from different frequency bands aspects.
 - Strong regions
 
