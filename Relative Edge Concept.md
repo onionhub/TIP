@@ -9,16 +9,16 @@ Features in images are relative from two perspectives which have been adressed a
 ## Relative*
 The edges are relative in an image based on the value of the gradient they have.
 
-- Strong* regions
+- Relative* strong regions
 
-- Flat* regions
+- Relative* flat regions
 
 ## Relative**
 The edge are relative in spatial domain from different frequency bands aspects.
 
-- Strong** regions
+- Relative** strong regions
 
-- Flat** regions
+- Relative** flat regions
 
 --------------------------------------------
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re0.jpg)
