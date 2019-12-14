@@ -22,7 +22,7 @@ The Relative* strong regions are relative in spatial domain from different frequ
 1) All methods' mathematics and the way of their implementation are invariant. For example, finite difference methods should chose the same spatial step (same pattern of Euclidean distance between mesh points in all derived signals of a given filter) when they are used to approximate nth-order derivatives in image processing, like first-order backward difference for computing the edges.
 2) Delat function is absolute feature. In other words, u=0 does not count as signal or image, and any feature occupies some space in spatial domain in order to be able to seperate it into different regions from mathematical perspective.
 
-- Relative** strong regions
+- <b>Relative**</b> strong regions
 
 These regions always belong to <i>relative*</i> strong regions but they count as strong regions <b>relative**</b> to the frequency band which we study the image.
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as <b>relative**</b> flat regions in a specific frequency band, or some other parts can be added to these parts from <b>relative**</b> flat regions.
