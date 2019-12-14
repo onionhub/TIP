@@ -1,6 +1,6 @@
 # Relative Edge Concept
 ```
--Colors Interpretation
+-Colors Interpretation:
 Red: Indicates strong edges.
 Green: Indicates weak edges.
 Yellow: Indicates strong edge in one direction, like x-direction, and weak edge in other direction.
