@@ -7,7 +7,7 @@ Yellow: Indicates relative** strong edge in one direction, like x-direction, and
 ```
 Features in images are relative from two perspectives which have been adressed as <div class="text-blue mb-2">relative</div> and <b>relative**</b> in this document. We consider the edges as a manifest features in image processing.
 ## <i>Relative*</i>
-<div class="text-blue mb-2">
+<div class="text-blue">
   relative
 </div>
 The edges are relative in an image based on the value of the gradient they have.
