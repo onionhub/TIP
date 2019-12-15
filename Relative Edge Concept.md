@@ -43,7 +43,8 @@ Red: Indicates relative** strong edges.
 Green: Indicates relative** weak edges.
 Yellow: Indicates relative** strong edge in one direction, like x-direction, and relative** weak edge in other direction.
 ```
-![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re0.jpg)
+## Image's regions <b>relative**</b> to a given frequency band
+![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re00.jpg)
 ## Image's regions <b>relative**</b> to variance of 1 in Gaussian
 ![2](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re1.jpg)
 ## Image's regions <b>relative**</b> to variance of 3 in Gaussian
