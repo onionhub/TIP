@@ -5,7 +5,7 @@ and they are not different words with different meaning.
 
 For ease of reading and understanding, we have just marked them with * and **.
 
-(<i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.)
+<i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.
 ```
 # Relative Edge Concept
 Features in images are relative from two perspectives which have been adressed as <i>relative*</i> and <b>relative**</b> in this document. We consider the edges as a manifest features in image processing.
