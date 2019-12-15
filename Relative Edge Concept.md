@@ -32,7 +32,7 @@ These regions are not invariant in all frequency bands. In other words, some par
 
 - <b>Relative**</b> flat regions
 
-Quite the contrary, any part of these regions might not always belong to <i>relative*</i> strong regions and they might be either <i>relative*</i> strong regions or <i>relative*</i> flat regions in different frequency bands. 
+Quite the contrary, even a single pixel of these regions might not belong to <i>relative*</i> strong regions, and they might belong to either <i>relative*</i> strong regions or to <i>relative*</i> flat regions in different frequency bands. 
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as <b>relative**</b> strong regions in a specific frequency band, or some other parts can be added to these parts from <i>relative*</i> flat regions.
 # We will speak more in details and give some interpretations about the below images whitin 24 hours.
 
