@@ -1,5 +1,7 @@
 <pre><code>
-Notice: In this document, <i>relative*</i> and <b>relative**</b> both have the same meaning in the text.
+Notice
+
+In this document, <i>relative*</i> and <b>relative**</b> both have the same meaning in the text.
 
 For ease of reading, we have just marked them with * and **.
 
