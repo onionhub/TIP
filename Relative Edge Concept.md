@@ -35,6 +35,7 @@ These regions are not invariant in all frequency bands. In other words, some par
 Quite the contrary, even a single pixel of these regions might not belong to <i>relative*</i> strong regions, and they might belong to either <i>relative*</i> strong regions or to <i>relative*</i> flat regions in different frequency bands. 
 These regions are not invariant in all frequency bands. In other words, some parts of it can be counted as <b>relative**</b> strong regions in a specific frequency band, or some other parts can be added to these parts from <i>relative*</i> flat regions.
 # What are the below images talking about?
+In these images a determind gradient threshold has been selected in order to count the regions with higher gradient as <i>relative*</i> strong regions and the regions with lower gradient as <i>relative*</i> flat regions. By using the Eq. (19) of the paper we have extracted <b>relative**</b> strong and flat regions of <i>relative*</i> strong regions.
 
 --------------------------------------------
 ```
