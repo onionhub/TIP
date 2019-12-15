@@ -37,7 +37,7 @@ These regions are not invariant in all frequency bands. In other words, some par
 # What are the below images talking about?
 In these images a determind gradient threshold has been selected in order to count the regions with higher gradient as <i>relative*</i> strong regions and the regions with lower gradient as <i>relative*</i> flat regions. By using the Eq. (19) of the paper we have extracted <b>relative**</b> strong and <b>relative**</b> flat regions of <i>relative*</i> strong regions.
 
-We have brought Canny edge computing method as an example to see how edge computing methods select the proper edges from these regions. As seen, Canny method connects <i>relative*</i> strong regions to eachother via <b>relative**</b> flat regions.
+We have brought Canny edge computing method as an example to see how edge computing methods select the proper edges from these regions. As seen, Canny method connects <i>relative*</i> strong regions to eachother via <b>relative**</b> flat regions. Without this concept, we should have seen some fragmentary edges in the results of Canny.
 
 --------------------------------------------
 ```
