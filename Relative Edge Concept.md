@@ -5,6 +5,7 @@ Red: Indicates relative** strong edges.
 Green: Indicates relative** weak edges.
 Yellow: Indicates relative** strong edge in one direction, like x-direction, and relative** weak edge in other direction.
 ```
+Notice: <i>relative*</i> and <b>relative**</b> both have the same meaning in the text, and they are not different words with different meaning. For ease of studying, we have marked them with * and **.
 Features in images are relative from two perspectives which have been adressed as <i>relative*</i> and <b>relative**</b> in this document. We consider the edges as a manifest features in image processing.
 ## <i>Relative*</i>
 The edges are relative in an image based on the value of the gradient they have.
@@ -18,7 +19,7 @@ According to the conventional assumption in image processing, those regions with
 The rest of the regions count as flat regions <i>relative*</i> to strong regions; those regions with low gradient values.
 
 ## <b>Relative**</b>
-The <i>relative*</i> strong regions are <b>relative**</b> in spatial domain from different frequency bands aspects. <i>relative*</i> strong regions are relative in respect to the frequency band we study the image if we consider two constraints:
+The <i>relative*</i> strong regions are <b>relative**</b> in spatial domain from different frequency bands aspects. <i>relative*</i> strong regions are <b>relative**</b> in respect to the frequency band we study the image if we consider two constraints:
 1) All methods' mathematics and the way of their implementation are invariant. For example, finite difference methods should chose the same spatial step (same pattern of Euclidean distance between mesh points in all derived signals of a given filter) when they are used to approximate nth-order derivatives in image processing, like first-order backward difference for computing the edges.
 2) Delat function is absolute feature. In other words, u=0 does not count as signal or image, and any feature occupies some space in spatial domain in order to be able to seperate it into different regions from mathematical perspective.
 
