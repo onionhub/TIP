@@ -41,7 +41,7 @@ We have brought Canny edge computing method as an example to see how edge comput
 
 <i>Notice: You may find in some colorful images that they do not contain some parts which exist in Canny results. The reason is that we have supposed a higher threshold for obtaining the strong and flat regions than Canny for better visual interpretation in the document. After obtaining the images, we have equalized the thresholds in the following of the experiments.</i>
 # What happens when an image get smooth?
-In image processing, it seems that flat regions extends when an image get smooth. This would be a wrong assumption in image processing. Quite the contrary, flat regions are contracted and that is the <b>relative**</b> flat regions, which belong to <i>relative*</i> strong regions, are expanded in smoothed images. In other words, in smoothed images, the edges propagate and replace flat regions unlike the flat regions which are repressed.
+In image processing, it seems that flat regions extends when an image get smooth. This would be a wrong assumption in image processing if the first law of the above two restrictions has been hold and the threshold of gradient, for computing <i>relative*</i> strong and flat regions, has been set constant. Quite the contrary, flat regions are contracted and that is the <b>relative**</b> flat regions, which belong to <i>relative*</i> strong regions, are expanded in smoothed images. In other words, in smoothed images, the edges propagate and replace flat regions unlike the flat regions which are repressed.
 
 --------------------------------------------
 ```
