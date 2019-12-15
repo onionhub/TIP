@@ -39,6 +39,7 @@ In these images a determind gradient threshold has been selected in order to cou
 
 We have brought Canny edge computing method as an example to see how edge computing methods select the proper edges from these regions. As seen, Canny method connects <i>relative*</i> strong regions to eachother via <b>relative**</b> flat regions. Without this concept, we should have seen some fragmentary edges in the results of Canny.
 # What happens when an image get smooth?
+In image processing, it seems that <i>relative*</i> flat regions extends when an image get smooth. This would be a wrong assumption in image processing. Quite the contrary, <i>relative*</i> flat regions are contracted and that is the <b>relative**</b> flat regions, which belong to <i>relative*</i> strong regions, are expanded in smoothed images. In other words, in smoothed images, the edges propagate despite of the flat regions which are repressed.
 
 --------------------------------------------
 ```
