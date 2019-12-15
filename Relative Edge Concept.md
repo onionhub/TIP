@@ -1,10 +1,10 @@
-<code>
+<pre><code>
 Notice: In this document, <i>relative*</i> and <b>relative**</b> both have the same meaning in the text.
 
 For ease of reading and understanding, we have just marked them with * and **.
 
 <i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.
-<code/>
+</code></pre>
 # Relative Edge Concept
 Features in images are relative from two perspectives which have been adressed as <i>relative*</i> and <b>relative**</b> in this document. We consider the edges as a manifest features in image processing.
 ## <i>Relative*</i>
