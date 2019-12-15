@@ -1,5 +1,5 @@
 <pre><code>
-## Notice
+<b>Notice</b>
 
 In this document, <i>relative*</i> and <b>relative**</b> both have the same meaning in the text.
 
