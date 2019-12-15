@@ -5,7 +5,9 @@ Red: Indicates relative** strong edges.
 Green: Indicates relative** weak edges.
 Yellow: Indicates relative** strong edge in one direction, like x-direction, and relative** weak edge in other direction.
 ```
-Notice: <i>relative*</i> and <b>relative**</b> both have the same meaning in the text, and they are not different words with different meaning. For ease of reading and understanding, we have just marked them with * and ** ; <i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.
+Notice: <i>relative*</i> and <b>relative**</b> both have the same meaning in the text, and they are not different words with different meaning. For ease of reading and understanding, we have just marked them with * and **.
+
+<i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.
 
 Features in images are relative from two perspectives which have been adressed as <i>relative*</i> and <b>relative**</b> in this document. We consider the edges as a manifest features in image processing.
 ## <i>Relative*</i>
