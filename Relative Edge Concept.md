@@ -49,7 +49,7 @@ Yellow: Indicates relative** strong edge in one direction, like x-direction, and
 ```
 ## Image's regions <b>relative**</b> to a given frequency band
 ![1](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re00.jpg)
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1flatlena.png" width="250" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1stronglena.png" width="250" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/1.png" width="250" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1.png" width="250" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c2.png" width="250" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c3.png" width="250" height="100">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1flatlena.png" width="300" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1stronglena.png" width="300" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/1.png" width="300" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c1.png" width="300" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c2.png" width="300" height="100"><img src="https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/c3.png" width="300" height="100">
 ## Image's regions <b>relative**</b> to variance of 1 in Gaussian
 ![2](https://github.com/onionhub/TIP/blob/Drafts/Relative%20Edge/Re1.jpg)
 ## Image's regions <b>relative**</b> to variance of 3 in Gaussian
