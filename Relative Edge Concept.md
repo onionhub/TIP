@@ -1,5 +1,6 @@
+```
 Notice: In this document, <i>relative*</i> and <b>relative**</b> both have the same meaning in the text, and they are not different words with different meaning. For ease of reading and understanding, we have just marked them with * and ** .
-
+```
 (<i>relative*</i> = <b>relative**</b> = relative word in oxford dictionary.)
 -------------------
 # Relative Edge Concept
