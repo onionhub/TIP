@@ -26,4 +26,5 @@ Cl has been chosen 0 for all of the experiments except for the real-world images
 This sentence should be removed completely. Because, we have used Cl=1 for Fig. 7 and Fig. 9. It is not a currect statement.
 ```
 - Page. 3, column. Right, Fig. 2
-Fig.2 (b) should be removed.  Based on the new contribution of the submitted paper, edge activation function of the proposed filter is as same as edge. Stopping function of the anisotropic diffusion function. 
+
+Fig.2 (b) should be removed.  Based on the new contribution of the submitted paper, edge activation function of the proposed filter is as same as edge stopping function of the anisotropic diffusion function. 
