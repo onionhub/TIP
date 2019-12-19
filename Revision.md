@@ -28,3 +28,4 @@ This sentence should be removed completely. Because, we have used Cl=1 for Fig. 
 - Page. 3, column. Right, Fig. 2
 
 Fig.2 (b) should be removed.  Based on the new contribution of the submitted paper, edge activation function of the proposed filter is as same as edge stopping function of the anisotropic diffusion function. 
+D
