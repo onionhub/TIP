@@ -28,3 +28,21 @@ This sentence should be removed completely. Because, we have used Cl=1 for Fig. 
 - Page. 3, column. Right, Fig. 2
 
 Fig.2 (b) should be removed.  Based on the new contribution of the submitted paper, edge activation function of the proposed filter is as same as edge stopping function of the anisotropic diffusion function. 
+
+-Page. 4, Column. Left
+```
+-Current
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG" width="300" height="100">
+
+-Revised
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG" width="300" height="100">
+
+```
+
+-Page. 5, Column. Right
+```
+-Current
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG" width="300" height="100">
+
+-Revised
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG" width="300" height="100">
