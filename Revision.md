@@ -33,21 +33,21 @@ Fig.2 (b) should be removed.  Based on the new contribution of the submitted pap
 ```
 -Current
 ```
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re1.JPG" width="300" height="100">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re1.JPG" width="450" height="250">
 
 ```
 -Revised
 ```
 
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re2-ink.JPG" width="300" height="100">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re2-ink.JPG" width="450" height="250">
 
 -Page. 5, Column. Right
 ```
 -Current
 ```
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Re-19-1.JPG" width="300" height="100">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Re-19-1.JPG" width="450" height="250">
 
 ```
 -Revised
 ```
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/InkedRe-19-2_ink.jpg" width="300" height="100">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/InkedRe-19-2_ink.jpg" width="450" height="250">
