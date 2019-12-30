@@ -34,6 +34,7 @@ Fig.2 (b) should be removed.  Based on the new contribution of the submitted pap
 -Current
 ```
 <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re1.JPG" width="300" height="100">
+
 ```
 -Revised
 ```
