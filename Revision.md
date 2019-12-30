@@ -41,7 +41,7 @@ Fig.2 (b) should be removed.  Based on the new contribution of the submitted pap
 
 <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/Prin_Re2-ink.JPG" width="450" height="250">
 
--Page. 5, Column. Right
+-Page. 5, Column. Righ
 ```
 -Current
 ```
