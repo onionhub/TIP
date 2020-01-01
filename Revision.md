@@ -58,13 +58,9 @@ Fig.2 (b) should be removed.  Based on the new contribution of the submitted pap
 ```
 -Current
 ```
-<img src="
-https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso.JPG" width="450" height="250">
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso.JPG" width="450" height="250">
 
 ```
 -Revised
 ```
-<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/InkedRe-19-2_ink.jpg" width="450" height="250">
-
-
-https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso-re.JPG
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso-re.JPG" width="450" height="250">
