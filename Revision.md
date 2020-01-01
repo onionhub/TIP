@@ -17,13 +17,15 @@ Ch can be either constant coefficient or non-negative monotonically decreasing (
 - Revised:
 ```
 <img src="https://github.com/onionhub/TIP/blob/Drafts/Revisedbeta.JPG" width="300" height="100">
+https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso.JPG
 
 - Page. 8, Column. Left, Line. 11
 ```
 - Current:
 Cl has been chosen 0 for all of the experiments except for the real-world images which we were sure that there is almost no noise in the images.
 - Revised:
-This sentence should be removed completely. Because, we have used Cl=1 for Fig. 7 and Fig. 9. It is not a currect statement.
+This sentence should be removed completely. Because, we have u
+https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso.JPGsed Cl=1 for Fig. 7 and Fig. 9. It is not a currect statement.
 ```
 - Page. 3, column. Right, Fig. 2
 
@@ -51,3 +53,18 @@ Fig.2 (b) should be removed.  Based on the new contribution of the submitted pap
 -Revised
 ```
 <img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/InkedRe-19-2_ink.jpg" width="450" height="250">
+
+-Page. 4
+```
+-Current
+```
+<img src="
+https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso.JPG" width="450" height="250">
+
+```
+-Revised
+```
+<img src="https://github.com/onionhub/TIP/blob/Drafts/Drafts/InkedRe-19-2_ink.jpg" width="450" height="250">
+
+
+https://github.com/onionhub/TIP/blob/Drafts/Drafts/iso-re.JPG
