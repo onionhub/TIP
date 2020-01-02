@@ -13,5 +13,5 @@ Moreover, one can consider that the second image (image of the phone) can be exp
 
 The first law helps us to preserve the space that a delta function can be exist and prevent us from manipulating a space to have a delta function in an undercut space of an image. The second law helps us to have a relativity concept in image processing by having an absolute space which delta function can be defined there.
 
-If the second law does not exist, we could not use the proposed filter as edge enhancement or pre-processing tool; we could solely use it as an edge-preserving tool. Although we could use it as edge enhancement filter from engineering perspective which deals with problems approximately, we want to introduce a strong and foolproof filter in image processing with strong fundamental.
+If the second law does not exist, we could not use the proposed filter as edge enhancement or pre-processing tool; we could solely use it as an edge-preserving tool with some specific assumptions about the cut-frequency of u_g in the proposed filter.
 
