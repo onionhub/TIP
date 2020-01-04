@@ -4,4 +4,4 @@ Consider two laws hold on, then we can recover high-frequency information just b
 
 For this purpose, we can use the same filter which has been used for filtering the original image. By using the same filter in H_2, based on eq. (20), our filter will simulate the pattern of the relative locations, and it will move the regions into a approximate locations which the regions of the original signal located in a higher-frequency band.
 
-The reason for usinf Gaussian filtering as an example in the paper is that the Gaussian filter is the most prominent filter in the nature. Therefore, images are more more likely to be manipulated by this filter. But, if we are aware about the filtering, which the image has been filtered, we can use that filter in H_2.
+The reason for using Gaussian filtering as an example in the paper is that the Gaussian filter is the most prominent filter in the nature. Images are more likely to be manipulated by this filter, But if we are aware about the filtering, which the image has been filtered by it, we can use that filter in H_2.
