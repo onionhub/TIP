@@ -1,2 +1,3 @@
 We explained that why we need relativity concept in our work and how it is basic foundation of our proposed filter for enhancing and pre-processing. In this document we will explain how the proposed filter use relative locations of the edge in spatial domain to enhance them.
 
+Consider two laws hold on, then we can recover high-frequency information just by having locations of flat and strong regions of a signal which has been filtered by a low-pass filter. The problem is that every filtering has its unique pattern in replacing locations of the regions. Threfore, we need to simulate and learn this pattern to move the regions which may exist on a higher frequency band. 
