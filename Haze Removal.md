@@ -47,6 +47,8 @@ u_l=imgaussfilt(Input,4)--- (sigma2=1.5)
 Ch=[2 1]---- (c1=4, c2=1)
 Cl=0
 output=map-processed
+
+Refining the estimatted map
 Refined estimatted map=guided filter (map-processed,I-processed)
 ```
 # Discussion [----Updated----]
