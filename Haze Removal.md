@@ -20,7 +20,7 @@ Ch=[2 1]---- (c1=2, c2=1)
 Cl=0.8
 ```
 
-2- This figure shows the performance of [1] when proposed filter is applied as a preprocessing filter on the input hazy image.
+2- This figure shows the performance of [1] when proposed filter is applied as a preprocessing filter on the estemated transmission map.
 - Parameters
 ```
 ```
