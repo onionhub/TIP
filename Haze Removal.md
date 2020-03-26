@@ -28,6 +28,26 @@ Cl=0.8
 
 - Parameters
 ```
+[1] used guided filter to smooth the estimatted depth map. We preprocess both input image, as reference input of guided filter, and estimatted depth map, and then set them as inputs of the guided filter.
+
+Preprocessing of the input haze image
+Case 1---- lowfilter='Gaussian-enhancement'
+u_g=Input haze image--- (sigma0=u_g)
+u_k=imgaussfilt(Input,2)--- (sigma1=0.55)
+u_l=imgaussfilt(Input,4)--- (sigma2=1.5)
+Ch=[2 1]---- (c1=4, c2=1)
+Cl=0
+Output=I-processed
+
+Preprocessing of the estimatted depth map
+Case 1---- lowfilter='Gaussian-enhancement'
+u_g=the estimatted depth map--- (sigma0=u_g)
+u_k=imgaussfilt(Input,2)--- (sigma1=0.55)
+u_l=imgaussfilt(Input,4)--- (sigma2=1.5)
+Ch=[2 1]---- (c1=4, c2=1)
+Cl=0
+output=map-processed
+Refined estimatted map=guided filter (map-processed,I-processed)
 ```
 # Discussion [----Updated----]
 
