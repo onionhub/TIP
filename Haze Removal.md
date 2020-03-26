@@ -21,6 +21,7 @@ Most of haze removal methods are trying to estimate a transmission map or depth 
 
 ## Haze Removal Using Dark Channel Prior
 
-<a id="1">[1]</a>
+<a id="1">[2]</a>
 He, Kaiming, Jian Sun, and Xiaoou Tang. "Single image haze removal using dark channel prior." IEEE transactions on pattern analysis and machine intelligence 33, no. 12 (2010): 2341-2353.
 
+In this part we will see how the proposed filter can improve the performance of the well-known dark channel prior method on preserving the fine details beside of dehazing.
