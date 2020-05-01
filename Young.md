@@ -7,4 +7,5 @@ We think that these topics might help to introduce the mathematical model of the
 This document will be added on 1 May.
 
 ---Updated---
+
 This document is the main idea of my manuscript, hence I cannot share this document in the open-access mode of Github. I will introduce this idea as the introduction of the revised manuscript.
