@@ -16,7 +16,7 @@ Fig. 6 (g) Proposed (edge enhancement)
 ```
 Ch
 c1=11/0.1=110
-c2=2/0.1=12
+c2=2/0.1=20
 
 CL
 c3=0.3
