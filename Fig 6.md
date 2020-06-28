@@ -4,13 +4,13 @@ It is decompressed by the software that generated it for latex. Also, I have wro
 
 ---------
 
-![1](https://github.com/onionhub/TIP/blob/Drafts/Drafts/1o.Jpg)
-
 Fig. 6 (h) Original image
 
-![2](https://github.com/onionhub/TIP/blob/Drafts/Drafts/1.jpg)
+![1](https://github.com/onionhub/TIP/blob/Drafts/Drafts/1o.Jpg)
 
 Fig. 6 (g) Proposed (edge enhancement)
+
+![2](https://github.com/onionhub/TIP/blob/Drafts/Drafts/1.jpg)
 
 - Parameters
 ```
