@@ -1,4 +1,4 @@
-function [ue] = Proposed(Input,ug,sigma1,sigma2,C1,C2,c3,c4)
+function [ue] = Proposed(Input,ug,sigma1,sigma2,c1,c2,c3,c4)
 Input=double(Input);
 [m,n,c]=size(Input);
 ue=zeros(m,n,c);
