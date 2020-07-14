@@ -19,10 +19,10 @@ for channel=1:c
         Mexul=max(max(gradukl2(:)));
         menul=min(min(gradul2(:)));
         F1=(gradul2-menul)./(Mexul-menul);
-        C=c1.exp(-c2.F1);
-        aux=exp(-c4.F1);
+        C=c1*exp(-c2*F1);
+        aux=exp(-c4*F1);
         auxmax=max(max(aux(:)));
-        Cl=c3.(auxmax-exp(-c4.F1));
+        Cl=c3*(auxmax-exp(-c4*F1));
 % Main formula
         H2=Im-ul;
         ue(:,:,channel)=ug+C.*(F+Cl).*H2;
