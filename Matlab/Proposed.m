@@ -1,5 +1,5 @@
 %%% c2 is always 1, 2 or 3 according to noise level. For example, value 1 for less noise.
-%%% sigma2=2*sigma1. But if the amount of noise is very low (var<10), it is better to consider sigma2=1*sigma1.
+%%% sigma2=2*sigma1. But if the amount of noise is very low (var<10), it is better to consider sigma2=sigma1.
 
 function [ue] = Proposed(Input,ug,sigma1,sigma2,c1,c2,c3,c4)
 Input=double(Input);
@@ -24,7 +24,7 @@ for channel=1:c
         Mexul=max(max(gradukl2(:)));
         menul=min(min(gradul2(:)));
         F1=(gradul2-menul)./(Mexul-menul);
-%%% Line 24-25 added
+%%% Lines 24-25 added
         unntemp=graduk.^2;
         C_temp=max(max(unntemp(:)))/max(max(ugrad(:)));
 %%% Line 28 revised
