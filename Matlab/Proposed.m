@@ -1,4 +1,4 @@
-%%% c2 is always 1, 2 or 3 according to noise level. For example, value 1 for less noise.
+%%% c1 is always 1, 2 or 3 according to noise level. For example, value 1 for less noise.
 %%% sigma2=2*sigma1. But if the amount of noise is very low (var<10), it is better to consider sigma2=sigma1.
 
 function [ue] = Proposed(Input,ug,sigma1,sigma2,c1,c2,c3,c4)
