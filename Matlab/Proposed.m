@@ -1,4 +1,4 @@
-%%% c2 is always 1, 2 or 3 according to noise level.
+%%% c2 is always 1, 2 or 3 according to noise level. For example, value 1 for less noise.
 
 function [ue] = Proposed(Input,ug,sigma1,sigma2,c1,c2,c3,c4)
 Input=double(Input);
