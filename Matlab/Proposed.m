@@ -39,5 +39,6 @@ for channel=1:c
         ue(:,:,channel)=ug+C.*(F+Cl).*H2;
 end
 
+%%% Output should be renormalized
 ue=im2double(ue);
 return
