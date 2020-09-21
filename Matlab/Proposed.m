@@ -39,5 +39,5 @@ for channel=1:c
         ue(:,:,channel)=ug+C.*(F+Cl).*H2;
 end
 
-ue=uint8(ue);
+ue=im2double(ue);
 return
