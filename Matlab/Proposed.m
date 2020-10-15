@@ -1,12 +1,29 @@
-%%% c1 is always 1, 2 or 3 according to noise level. For example, value 1 for less noise.
-%%% sigma2=2*sigma1. But if the amount of noise is very low (var<10), it is better to consider sigma2=sigma1.
-
-function [ue] = Proposed(Input,ug,sigma1,sigma2,c1,c2,c3,c4)
+function [ue] = Proposed(NoisyIm,sigma,NumIter)
 Input=double(Input);
 [m,n,c]=size(Input);
 ue=zeros(m,n,c);
+%%% Generating Parameters
+if sigma1<=0.8
+    sigma2=sigma1;
+elseif sigma1>0.8
+    sigma2=2*sigma1;
+end
 
-for channel=1:c
+if sigma1<=0.5
+    c2=5;
+elseif sigma1>0.5 && sigma1<=1
+    c2=4;
+elseif sigma1>1 && sigma1<=2
+    c2=3;
+elseif sigma1>2 && sigma1<=3
+    c2=2;
+else
+    c2=1;
+end
+%%%
+
+for c1=1:Numiter
+      for channel=1:c
         Im=Input(:,:,channel);
         [ugrad,~]=imgradient(Im);
 % Generating F by uk
@@ -15,8 +32,11 @@ for channel=1:c
         graduk2=graduk.^2;
         Mexuk=max(max(graduk2(:)));
         menuk=min(min(graduk2(:)));
-%%% Line 15 revised
-        F=0.8*(graduk2-menuk)./(Mexuk-menuk)-0.02;
+%%% Best for Gaussian
+        F=0.7*(graduk2-menuk)./(Mexuk-menuk)-0.025;
+%%% Best for Gaussian
+%       F=1*(graduk2-menuk)./(Mexuk-menuk)+0.025;
+        
 % Generating C and Cl by ul
         ul=imgaussfilt(Im,sigma2);
         [gradul,~]=imgradient(ul,'central');
@@ -29,14 +49,16 @@ for channel=1:c
         C_temp=max(max(unntemp(:)))/max(max(ugrad(:)));
 %%% Line 28 revised
         C=C_temp*c1*exp(-c2*F1);
-        aux=exp(-c4*F1);
-        auxmax=max(max(aux(:)));
-        Cl=c3*(auxmax-exp(-c4*F1));
+%       aux=exp(-c4*F1);
+%       auxmax=max(max(aux(:)));
+%       Cl=c3*(auxmax-exp(-c4*F1));
+        Cl=0;
 % Main formula
         H2_temp=Im-ul;
 %%% Line 29 added
         H2=tanh(H2_temp);
         ue(:,:,channel)=ug+C.*(F+Cl).*H2;
+     end
 end
 
 %%% Output should be renormalized
