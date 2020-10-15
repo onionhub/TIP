@@ -22,8 +22,8 @@ else
 end
 %%%
 
-for c1=1:NumIter
-c1=c1/StepSize;
+for i=1:NumIter
+c1=i/StepSize;
       for channel=1:c
         Im=Input(:,:,channel);
         [ugrad,~]=imgradient(Im);
