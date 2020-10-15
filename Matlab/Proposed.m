@@ -1,5 +1,5 @@
-function [ue] = Proposed(NoisyIm,sigma,NumIter)
-Input=double(Input);
+function [ue] = Proposed(NoisyIm,sigma1,NumIter,StepSize)
+Input=double(Noisyim);
 [m,n,c]=size(Input);
 ue=zeros(m,n,c);
 %%% Generating Parameters
@@ -22,7 +22,8 @@ else
 end
 %%%
 
-for c1=1:Numiter
+for c1=1:NumIter
+c1=c1/StepSize;
       for channel=1:c
         Im=Input(:,:,channel);
         [ugrad,~]=imgradient(Im);
@@ -41,7 +42,7 @@ for c1=1:Numiter
         ul=imgaussfilt(Im,sigma2);
         [gradul,~]=imgradient(ul,'central');
         gradul2=gradul.^2;
-        Mexul=max(max(gradukl2(:)));
+        Mexul=max(max(gradul2(:)));
         menul=min(min(gradul2(:)));
         F1=(gradul2-menul)./(Mexul-menul);
 %%% Lines 24-25 added
@@ -57,7 +58,7 @@ for c1=1:Numiter
         H2_temp=Im-ul;
 %%% Line 29 added
         H2=tanh(H2_temp);
-        ue(:,:,channel)=ug+C.*(F+Cl).*H2;
+        ue(:,:,channel)=Im+C.*(F+Cl).*H2;
      end
 end
 
