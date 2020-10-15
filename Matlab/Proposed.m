@@ -22,14 +22,12 @@ else
 end
 %%%
 
-for i=1:NumIter
-c1=i/StepSize;
-      for channel=1:c
+for channel=1:c
         Im=Input(:,:,channel);
         [ugrad,~]=imgradient(Im);
 % Generating F by uk
         uk=imgaussfilt(Im,sigma1);
-        [graduk,~]=imgradient(uk,'central');
+        [graduk,~]=imgradient(uk);
         graduk2=graduk.^2;
         Mexuk=max(max(graduk2(:)));
         menuk=min(min(graduk2(:)));
@@ -40,7 +38,7 @@ c1=i/StepSize;
         
 % Generating C and Cl by ul
         ul=imgaussfilt(Im,sigma2);
-        [gradul,~]=imgradient(ul,'central');
+        [gradul,~]=imgradient(ul);
         gradul2=gradul.^2;
         Mexul=max(max(gradul2(:)));
         menul=min(min(gradul2(:)));
@@ -58,6 +56,9 @@ c1=i/StepSize;
         H2_temp=Im-ul;
 %%% Line 29 added
         H2=tanh(H2_temp);
+     for i=1:NumIter
+        c1=i/StepSize;
+        C=c1*C_temp2;
         ue(:,:,channel)=Im+C.*(F+Cl).*H2;
      end
 end
