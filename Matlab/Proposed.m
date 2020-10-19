@@ -32,7 +32,7 @@ for channel=1:c
         Mexuk=max(max(graduk2(:)));
         menuk=min(min(graduk2(:)));
 %%% Best for Gaussian
-        F=0.7*(graduk2-menuk)./(Mexuk-menuk)-0.025;
+        F=1*(graduk2-menuk)./(Mexuk-menuk)-0.025;
 %%% Best for Gaussian
 %       F=1*(graduk2-menuk)./(Mexuk-menuk)+0.025;
         
