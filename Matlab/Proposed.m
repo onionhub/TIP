@@ -1,3 +1,4 @@
+% StepSize=1/9 is more stable.
 function [ue] = Proposed(NoisyIm,sigma1,NumIter,StepSize)
 Input=double(Noisyim);
 [m,n,c]=size(Input);
@@ -33,7 +34,7 @@ for channel=1:c
         menuk=min(min(graduk2(:)));
 %%% Best for Gaussian
         F=1*(graduk2-menuk)./(Mexuk-menuk)-0.025;
-%%% Best for Gaussian
+%%% Best for Guided and TV filtering
 %       F=1*(graduk2-menuk)./(Mexuk-menuk)+0.025;
         
 % Generating C and Cl by ul
