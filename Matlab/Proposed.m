@@ -1,5 +1,6 @@
-% StepSize=1/9 is more stable.
-function [ue] = Proposed(NoisyIm,sigma1,NumIter,StepSize)
+% StepSize=1/7 is more stable.
+%sigma0 is the variance of u_g in line 64.
+function [ue] = Proposed(NoisyIm,sigma0,sigma1,NumIter,StepSize)
 Input=double(Noisyim);
 [m,n,c]=size(Input);
 ue=zeros(m,n,c);
@@ -24,7 +25,9 @@ end
 %%%
 
 for channel=1:c
-        Im=Input(:,:,channel);
+    Im=Input(:,:,channel);
+    u_g=imgaussfilt(Im,sigma0);
+    for i=1:NumIter
         [ugrad,~]=imgradient(Im);
 % Generating F by uk
         uk=imgaussfilt(Im,sigma1);
@@ -32,10 +35,8 @@ for channel=1:c
         graduk2=graduk.^2;
         Mexuk=max(max(graduk2(:)));
         menuk=min(min(graduk2(:)));
-%%% Best for Gaussian
+
         F=1*(graduk2-menuk)./(Mexuk-menuk)-0.025;
-%%% Best for Guided and TV filtering
-%       F=1*(graduk2-menuk)./(Mexuk-menuk)+0.025;
         
 % Generating C and Cl by ul
         ul=imgaussfilt(Im,sigma2);
@@ -57,10 +58,10 @@ for channel=1:c
         H2_temp=Im-ul;
 %%% Line 29 added
         H2=tanh(H2_temp);
-     for i=1:NumIter
-        c1=i/StepSize;
+     
+        c1=i*StepSize;
         C=c1*C_temp2;
-        ue(:,:,channel)=Im+C.*(F+Cl).*H2;
+        ue(:,:,channel)=u_g+C.*(F+Cl).*H2;
      end
 end
 
