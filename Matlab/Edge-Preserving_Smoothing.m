@@ -1,23 +1,23 @@
 % StepSize=1/7 is more stable.
 %sigma0 is the variance of u_g in line 64.
-function [ue] = Proposed(NoisyIm,sigma0,sigma1,NumIter,StepSize)
-Input=double(Noisyim);
+function [ue] = Edge-Preserving_Smoothing(NoisyIm,sigma0,sigma1,NumIter,StepSize)
+Input=double(NoisyIm);
 [m,n,c]=size(Input);
-ue=zeros(m,n,c);
+Out=zeros(m,n,c);
 %%% Generating Parameters
 if sigma1<=0.8
-    sigma2=sigma1;
+    sigma2=1*sigma1;
 elseif sigma1>0.8
     sigma2=2*sigma1;
 end
 
 if sigma1<=0.5
-    c2=5;
-elseif sigma1>0.5 && sigma1<=1
-    c2=4;
-elseif sigma1>1 && sigma1<=2
+    c2=15;
+elseif sigma1>0.5 && sigma1<=1.5
+    c2=7;
+elseif sigma1>1.5 && sigma1<=2.5
     c2=3;
-elseif sigma1>2 && sigma1<=3
+elseif sigma1>2.5 && sigma1<=3.5
     c2=2;
 else
     c2=1;
@@ -26,8 +26,8 @@ end
 
 for channel=1:c
     Im=Input(:,:,channel);
-    u_g=imgaussfilt(Im,sigma0);
     for i=1:NumIter
+        u_g=imgaussfilt(Im,sigma0);
         [ugrad,~]=imgradient(Im);
 % Generating F by uk
         uk=imgaussfilt(Im,sigma1);
@@ -36,7 +36,7 @@ for channel=1:c
         Mexuk=max(max(graduk2(:)));
         menuk=min(min(graduk2(:)));
 
-        F=1*(graduk2-menuk)./(Mexuk-menuk)-0.025;
+        F=1*(graduk2-menuk)./(Mexuk-menuk);
         
 % Generating C and Cl by ul
         ul=imgaussfilt(Im,sigma2);
@@ -48,24 +48,18 @@ for channel=1:c
 %%% Lines 24-25 added
         unntemp=graduk.^2;
         C_temp=max(max(unntemp(:)))/max(max(ugrad(:)));
-%%% Line 28 revised
-        C=C_temp*c1*exp(-c2*F1);
+        c1=i*StepSize;
+        C=c1*C_temp*exp(-c2*F1);
 %       aux=exp(-c4*F1);
 %       auxmax=max(max(aux(:)));
 %       Cl=c3*(auxmax-exp(-c4*F1));
-        Cl=0;
+        Cl=-0.025;
 % Main formula
         H2_temp=Im-ul;
-%%% Line 29 added
         H2=tanh(H2_temp);
-     
-        c1=i*StepSize;
-        C=c1*C_temp2;
-        ue(:,:,channel)=u_g+C.*(F+Cl).*H2;
+        Im=u_g+C.*(F+Cl).*H2;
+        Out(:,:,channel)=Im;
      end
 end
-
-%%% Output should be renormalized
-ue=im2double(ue);
+ue=im2double(Out);
 return
-%%%
