@@ -1,5 +1,6 @@
 % StepSize=1/7 is more stable for image denoising purpose.
-% But, the StepSize plays a major role for noise free image smoothing purpose. For example StepSize=1/3 will act different from StepSize=1/7.
+% But, the StepSize plays a major role for noise free image smoothing purpose. For example StepSize=1/3 will act different from StepSize=1/7
+%Important: C_l cannot be negative one as it was for image denoising purpose. For convenience, it is better to consider C_l zero for noise free image smoothing purpose.
 %sigma0 is the variance of u_g in line 64.
 function [ue] = Edge-Preserving_Smoothing(NoisyIm,sigma0,sigma1,NumIter,StepSize)
 Input=double(NoisyIm);
