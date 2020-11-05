@@ -3,6 +3,7 @@
 % C_l cannot has a negative value unlike for denoising one. For convinience, it is better to choose C_l=0.
 %sigma0 is the variance of u_g in lines 32 and 64.
 % Important: To better understand the edge preserving smoothing based on the relativity concept, it is better to fix sigma2 and achieve smoothed images by changing other parameters (like sigma1). In this case the smoothed images will be relative to the H_2 with a fixed sigma2.
+%sigma2>sigma1
 
 function [ue] = Edge-Preserving_Smoothing(NoisyIm,sigma0,sigma1,sigma2,NumIter,StepSize)
 Input=double(NoisyIm);
