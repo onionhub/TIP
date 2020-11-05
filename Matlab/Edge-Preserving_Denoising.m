@@ -1,6 +1,8 @@
 %%% This function is suitable for denoising noisy images.
 % StepSize=1/7 is more stable for image denoising purpose.
 %sigma0 is the variance of u_g in lines 32 and 64.
+%Compare the results at high noise level with NLM method.
+
 function [ue] = Edge-Preserving_Denoising(NoisyIm,sigma0,sigma1,NumIter,StepSize)
 Input=double(NoisyIm);
 [m,n,c]=size(Input);
